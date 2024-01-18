@@ -5,9 +5,17 @@ body{
 #gjs {
     border: 6px solid black;
     border-radius: 4px ;
+    position: absolute;
+    width: 400px;
+    height: 400px;
     /* background-color: ; */
   }
-  
+  .gjs-editor-cont{
+    width: 400px;
+    height:500px;
+    position: absolute;
+    top: 60px;
+  }
   /* Reset some default styling */
   .gjs-cv-canvas {
     top: 0;
@@ -57,8 +65,8 @@ body{
   
   .panel__right {
     flex-basis: 280px ;
-    position: relative;
-    overflow-y: auto;
+    /* position: relative; */
+    /* overflow-y: auto; */
     background-color: #002212;
     font-family: monospace;
     font-size: 17px;
